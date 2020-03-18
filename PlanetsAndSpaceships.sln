@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanetsAndSpaceships", "PlanetsAndSpaceships\PlanetsAndSpaceships.csproj", "{9EBFA5FD-2D1B-46CD-85C4-BA8D014F7FB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EBFA5FD-2D1B-46CD-85C4-BA8D014F7FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EBFA5FD-2D1B-46CD-85C4-BA8D014F7FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EBFA5FD-2D1B-46CD-85C4-BA8D014F7FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EBFA5FD-2D1B-46CD-85C4-BA8D014F7FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29543FAA-79C9-4B18-AF4E-54DBB5C3873B}
+	EndGlobalSection
+EndGlobal
