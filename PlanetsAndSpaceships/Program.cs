@@ -39,8 +39,29 @@ namespace PlanetsAndSpaceships
             //-----------------------------------------------------------------------------------
             //Iterating Over Planets
             //-----------------------------------------------------------------------------------
+            // 1.
+            var satelliteDictionary = new Dictionary<string, List<string>>
+            {
+                { "Perseid", new List<string> { "Mercury", "Mars", "Venus", "Jupiter" } },
+                { "Logos", new List<string> { "Earth", "Venus", "Pluto", "Uranus" } },
+                { "Agamemnon", new List<string> { "Mercury", "Saturn", "Neptune", "Jupiter", "Venus" } }
 
-
+            };
+            // 2.
+            foreach (var planet in planetList)
+            {
+                var matchingSatellites = $"{planet}: ";
+                foreach (var satellite in satelliteDictionary)
+                {
+                    if (satellite.Value.Contains(planet))
+                    {
+                        matchingSatellites += $"{satellite.Key}, ";
+                    }
+                }
+                char[] charToTrim = { ',', ' ' };
+                var finalMatchList = matchingSatellites.TrimEnd(charToTrim);
+                Console.WriteLine(finalMatchList);
+            }
         }
     }
 }
